@@ -17,6 +17,10 @@ body{
 /* quando vc vai suar o id vc usa # quando for class ai vc usa . */
 #btnAdd{
 background: #8052EC;
+width: 97px;
+height: 40px;
+left: 260px;
+top: 30px;
 }
 
 .container{
@@ -26,16 +30,19 @@ background: #8052EC;
     margin-right: auto;
     /* espaçamento dentro do container */
     padding: 30px 20px;
-    width: 541px;
-    left: 449px;
-    top: 166px;
+    width: 375px;
+    height: 498px;
+    left: 0px;
+    top: 116px;
     background: #FFFFFF;
     border-radius: 5px;   
 }
 
 #txtDados{
-    width: 342px;
+    width: 195px;
     height: 40px;
+    left: 0px;
+    top: 16px;
     border: 2px solid #8d8787b2;;
     background: #FFFFFF;
     border-radius: 5px;

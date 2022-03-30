@@ -34,11 +34,19 @@ function deletarTarefa(index) {
 
 //adicionar tarefas 
 function adicionarTarefas() {
-    arrayDeTarefas.push({
-        tarefa: input.value,
-        concluida: false
-    })
+    if (input.value) {
 
+        arrayDeTarefas.push({
+            tarefa: input.value,
+            concluida: false
+        })
+
+    }
+    else {
+        alert('Digite um tarefa')
+    }
+
+    input.value = ""
     mostraTarefas()
 }
 
@@ -62,4 +70,12 @@ function recarregarTarefas() {
 
 button.addEventListener('click', adicionarTarefas)
 
+function addEnter(teclas) {
+    if (teclas.key === "Enter") {
+        adicionarTarefas()
+    }
+
+}
+
+document.addEventListener("keypress", addEnter)
 
