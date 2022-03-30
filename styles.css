@@ -11,7 +11,8 @@ h1 {
     color: green;
 }
 body{
-    background: linear-gradient(90deg, #7F00FF 0%, #E100FF 100%);
+    /* background: linear-gradient(90deg, #7F00FF 0%, #E100FF 100%); */
+    background: linear-gradient(90deg, rgba(59,59,191,1) 44%, rgba(0,212,255,1) 100%);
 }
 
 /* quando vc vai suar o id vc usa # quando for class ai vc usa . */
@@ -31,7 +32,7 @@ top: 30px;
     /* espaçamento dentro do container */
     padding: 30px 20px;
     width: 375px;
-    height: 498px;
+    /* height: 498px; */
     left: 0px;
     top: 116px;
     background: #FFFFFF;
@@ -103,11 +104,11 @@ top: 30px;
 }
 
 .fa-check{
-    color: green;
+    color: #0000CD;
 }
 
 .fa-trash-can{
-    color: red;
+    color: #DC143C;
 }
 #btnAdd{
         border: none;
@@ -115,7 +116,8 @@ top: 30px;
         height: 40px;
         left: 390px;
         top: 30px;
-        background: #8052EC;
+        /* background: #8052EC; */
+        background: #1E90FF;
         border-radius: 5px;
         color: #ffffff;
         font-size: 17px;
@@ -148,6 +150,6 @@ top: 30px;
 
 /* aqui vai a configuração das paradas concluidas  */
 .concluido{
-    background-color:  #d4f88d;
+    background: #87CEEB;
     text-decoration: line-through;
 }
