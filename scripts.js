@@ -52,9 +52,12 @@ function concluirTarefa(index) {
 
 function recarregarTarefas() {
     let minhasTarfas = localStorage.getItem("lista")
-    arrayDeTarefas = JSON.parse(minhasTarfas)
-    //console.log(arrayDeTarefas)
-    mostraTarefas()
+    if (minhasTarfas) {
+        arrayDeTarefas = JSON.parse(minhasTarfas)
+        //console.log(arrayDeTarefas)
+        mostraTarefas()
+    }
+
 }
 
 button.addEventListener('click', adicionarTarefas)
